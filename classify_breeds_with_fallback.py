@@ -20,7 +20,7 @@ ground_df['image_path'] = ground_df['image_path'].apply(lambda x: os.path.normpa
 meta_df['image_path'] = meta_df['image_path'].apply(lambda x: os.path.normpath(x).lower().strip())
 
 # Get breed classification via API
-ground_df = ground_df.sample(n=20, random_state=42)
+ground_df = ground_df.sample(n=100, random_state=42)
 ground_df['breed_name'] = ground_df['true_class'].str.lower().str.strip()
 
 # Classify breeds using APIs
