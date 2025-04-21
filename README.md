@@ -43,6 +43,9 @@ An automated pipeline that detects and classifies animals in images using a comb
 
 ---
 
+## 📊 Sample Output
+
+```plaintext
 📊 Evaluation 1: Model Prediction vs API Class
 Accuracy: 0.95
 Precision: 0.96
@@ -54,6 +57,7 @@ Accuracy: 0.95
 Precision: 0.96
 Recall: 0.95
 F1 Score: 0.95
+
 
 
 ---
