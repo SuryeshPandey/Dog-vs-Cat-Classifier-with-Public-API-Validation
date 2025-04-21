@@ -29,17 +29,17 @@ An automated pipeline that detects and classifies animals in images using a comb
 
 ## 🧰 Technologies Used
 
-Technology           | Purpose
-Python               | Core scripting language used across all modules
-pandas               | Data loading, cleaning, filtering, merging (CSV and tabular processing)
-requests             | Making API calls to Wikipedia and TheDogAPI
-os                   | File path normalization and directory handling
-OpenCV               | Image loading, enhancement, and pre-processing
-YOLOv5 (via PyTorch) | Object detection model used to classify dogs and cats in images
-torch.hub            | Easy access to pretrained YOLOv5 model
-Pillow               | Image enhancement (brightness, contrast, etc.)
-matplotlib & seaborn | Data visualization — bar charts, heatmaps, and confusion matrices
-scikit-learn         | Evaluation metrics and confusion matrix generation
+-Technology           | Purpose
+-Python               | Core scripting language used across all modules
+-pandas               | Data loading, cleaning, filtering, merging (CSV and tabular processing)
+-requests             | Making API calls to Wikipedia and TheDogAPI
+-os                   | File path normalization and directory handling
+-OpenCV               | Image loading, enhancement, and pre-processing
+-YOLOv5 (via PyTorch) | Object detection model used to classify dogs and cats in images
+-torch.hub            | Easy access to pretrained YOLOv5 model
+-Pillow               | Image enhancement (brightness, contrast, etc.)
+-matplotlib & seaborn | Data visualization — bar charts, heatmaps, and confusion matrices
+-scikit-learn         | Evaluation metrics and confusion matrix generation
 
 ## 📂 Project Structure
 
