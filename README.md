@@ -43,6 +43,16 @@ An automated pipeline that detects and classifies animals in images using a comb
 
 ---
 
+## 🔧 Setup & Installation
+
+```bash
+# 1. Install Dependencies
+pip install pandas numpy requests scikit-learn matplotlib seaborn opencv-python torch Pillow
+
+# 2. Run the full pipeline
+python classify_breeds_with_fallback.py
+
+
 ## 📂 Project Structure
 
 ```plaintext
