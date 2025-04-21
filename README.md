@@ -58,8 +58,6 @@ Precision: 0.96
 Recall: 0.95
 F1 Score: 0.95
 
-
-
 ---
 
 ## 🔧 Setup & Installation
